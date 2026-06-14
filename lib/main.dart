@@ -2,16 +2,16 @@ import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const EduSoftApp());
+  runApp(const DishariApp());
 }
 
-class EduSoftApp extends StatelessWidget {
-  const EduSoftApp({super.key});
+class DishariApp extends StatelessWidget {
+  const DishariApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'EduSoft',
+      title: 'Dishari',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'SF Pro Display',
@@ -187,7 +187,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  'EduSoft',
+                  'Dishari',
                   style: TextStyle(
                     color: AppColors.textPrimary,
                     fontSize: 20,
